@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "websocker_interceptor",
+  "version": "1.0",
+
+  "description": "Calls a debugger when websocket data is sent, allowing the data to be modified.",
+
+  "icons": {
+    "48": "socket.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "world": "MAIN",
+      "js": ["interceptor.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
+
