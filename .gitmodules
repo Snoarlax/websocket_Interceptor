@@ -1,0 +1,3 @@
+[submodule "lib/wshook"]
+	path = lib/wshook
+	url = https://github.com/skepticfx/wshook

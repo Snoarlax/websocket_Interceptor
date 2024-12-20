@@ -11,15 +11,8 @@ Try it out on [https://echo.websocket.org/.ws](https://echo.websocket.org/.ws) a
 
 ## TODO
 Using js prompts and base64 sucks - this needs a front end where messages can be intercepted.
-Lots of repeated code, it could be optimised
 Make it a proper addon rather than one that has to be loaded as a temporary add on 
-I'm not conviced the "incoming" interceptor is working, i'll look into it sometime, maybe use [https://github.com/skepticfx/wshook](https://github.com/skepticfx/wshook) for hooking instead?
 
 ## Credits
 
-Credits to the following Stackoverflow post, most of the code is taken from there:
-
-[https://stackoverflow.com/questions/70205816/intercept-websocket-messages](https://stackoverflow.com/questions/70205816/intercept-websocket-messages)
-
-The code from Ionică Bizău comprised most of this extension, I just wrapped it up into an extension. It was the one that worked best with my version of Firefox.
-
+Credits to the wsHook library, this project just wraps it up in an extension and provides a "frontend" [https://github.com/skepticfx/wshook](https://github.com/skepticfx/wshook)
